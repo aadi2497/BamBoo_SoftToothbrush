@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BamBoo_SoftToothbrush.Migrations
+namespace BamBoo_SoftToothbrush.Migrations.BamBoo_SoftToothbrush
 {
-    [DbContext(typeof(ToothbrushContext))]
-    partial class ToothbrushContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(BamBoo_SoftToothbrushContext))]
+    partial class BamBoo_SoftToothbrushContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

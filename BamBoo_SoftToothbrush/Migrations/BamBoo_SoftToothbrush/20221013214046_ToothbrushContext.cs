@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BamBoo_SoftToothbrush.Migrations
+namespace BamBoo_SoftToothbrush.Migrations.BamBoo_SoftToothbrush
 {
-    public partial class InitialCreate : Migration
+    public partial class ToothbrushContext : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +17,7 @@ namespace BamBoo_SoftToothbrush.Migrations
                     BrushSize = table.Column<decimal>(nullable: false),
                     Category = table.Column<string>(nullable: true),
                     Bristles_Color = table.Column<string>(nullable: true),
-                    Review =  table.Column<int>(nullable: true)
+                    Review = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

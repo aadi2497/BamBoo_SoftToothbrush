@@ -3,14 +3,16 @@ using BamBoo_SoftToothbrush.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BamBoo_SoftToothbrush.Migrations
+namespace BamBoo_SoftToothbrush.Migrations.BamBoo_SoftToothbrush
 {
-    [DbContext(typeof(ToothbrushContext))]
-    partial class ToothbrushContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(BamBoo_SoftToothbrushContext))]
+    [Migration("20221013214046_ToothbrushContext")]
+    partial class ToothbrushContext
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
