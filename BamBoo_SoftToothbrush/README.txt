@@ -30,3 +30,4 @@ Name of the Brand: BamBoo Softbrush
 0245: Image Added
 0246: More Contain Added
 0259: New Fonts added from google.
+0418: Class and Model Added

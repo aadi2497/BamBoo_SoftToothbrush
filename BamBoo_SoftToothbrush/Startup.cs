@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace BamBoo_SoftToothbrush
 {
@@ -34,6 +35,10 @@ namespace BamBoo_SoftToothbrush
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<ToothbrushContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("ToothbrushContext")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
