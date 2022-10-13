@@ -33,3 +33,5 @@ Name of the Brand: BamBoo Softbrush
 0418: Class and Model Added
 0420: Database context class Created and NuGet packages Installed
 0439: Database connection string Added
+0445: Scaffold Added
+
