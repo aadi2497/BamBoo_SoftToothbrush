@@ -27,3 +27,6 @@ Name of the Brand: BamBoo Softbrush
 2022: Test run successfully.
 
 0234: Adding Contain to About Us File.
+0245: Image Added
+0246: More Contain Added
+0259: New Fonts added from google.
