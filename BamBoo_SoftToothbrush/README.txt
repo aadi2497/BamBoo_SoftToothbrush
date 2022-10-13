@@ -31,3 +31,5 @@ Name of the Brand: BamBoo Softbrush
 0246: More Contain Added
 0259: New Fonts added from google.
 0418: Class and Model Added
+0420: Database context class Created and NuGet packages Installed
+0439: Database connection string Added

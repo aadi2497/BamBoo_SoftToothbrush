@@ -39,6 +39,9 @@ namespace BamBoo_SoftToothbrush
             services.AddDbContext<ToothbrushContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ToothbrushContext")));
 
+            services.AddDbContext<BamBoo_SoftToothbrushContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("BamBoo_SoftToothbrushContext")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
