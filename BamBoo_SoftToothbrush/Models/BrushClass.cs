@@ -11,6 +11,8 @@ namespace BamBoo_SoftToothbrush.Models
         public int ID { get; set; }
         public string ProductName { get; set; }
         public double Price { get; set; }
+
+        [Display(Name = "Size In CM")]
         public decimal BrushSize { get; set; }
 
         public string Category { get; set; }

@@ -24,12 +24,93 @@ namespace BamBoo_SoftToothbrush.Models
                 context.BrushClass.AddRange(
                     new BrushClass
                     {
-                        ProductName ="",
-                        Price=,
-                        BrushSize=,
-                        Category=,
-                        Bristles_Color=,
-                        Review=
+                        ProductName = "BamBoo Soft 1",
+                        Price = 5.99,
+                        BrushSize = 55M,
+                        Category = "Adult",
+                        Bristles_Color = "Black",
+                        Review = 4
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "BamBoo Soft 2",
+                        Price = 6.99,
+                        BrushSize = 45M,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category =,
+                        Bristles_Color =,
+                        Review =
                     }
                     );                    
                 context.SaveChanges();
