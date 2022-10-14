@@ -96,21 +96,21 @@ namespace BamBoo_SoftToothbrush.Models
                     },
                     new BrushClass
                     {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
+                        ProductName = "BamBoo Crafted",
+                        Price =8.99,
+                        BrushSize =25M,
                         Category = "Adult",
-                        Bristles_Color =,
-                        Review =
+                        Bristles_Color ="Red",
+                        Review =2
                     },
                     new BrushClass
                     {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
+                        ProductName = "Sof Gen BamBoo",
+                        Price =5.99,
+                        BrushSize =55M,
                         Category = "Adult",
-                        Bristles_Color =,
-                        Review =
+                        Bristles_Color ="Black",
+                        Review =5
                     }
                     );                    
                 context.SaveChanges();
