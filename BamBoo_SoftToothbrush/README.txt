@@ -36,4 +36,11 @@ Name of the Brand: BamBoo Softbrush
 0445: Scaffold Added
 
 0926: SeedData file created.
+0945: Program.cs File updated to Inject SeedData.
+
+1000: SeedData Not Running
+1028: Changed Context Class from ToothbrushContext
+
+1100: Final testing After Database added and seedData File Created.
+1105: All the test are successfull.
 

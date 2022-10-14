@@ -12,9 +12,9 @@ namespace BamBoo_SoftToothbrush.Models
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new ToothbrushContext(
+            using (var context = new BamBoo_SoftToothbrushContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<ToothbrushContext>>()))
+                    DbContextOptions<BamBoo_SoftToothbrushContext>>()))
             {
                 // Look for any Entry in Database.
                 if (context.BrushClass.Any())
