@@ -36,7 +36,70 @@ namespace BamBoo_SoftToothbrush.Models
                         ProductName = "BamBoo Soft 2",
                         Price = 6.99,
                         BrushSize = 45M,
-                        Category =,
+                        Category = "Adult",
+                        Bristles_Color = "White",
+                        Review = 4
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "BamBoo Soft Max",
+                        Price = 12.99,
+                        BrushSize = 45M,
+                        Category = "Kids",
+                        Bristles_Color = "Pink",
+                        Review = 3
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "BamBoo Soft Ultra",
+                        Price = 16.99,
+                        BrushSize = 25M,
+                        Category = "Kids",
+                        Bristles_Color = "Black",
+                        Review = 3
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "Bamboo Max",
+                        Price =12.99,
+                        BrushSize =60M,
+                        Category = "Kids",
+                        Bristles_Color = "Blue",
+                        Review = 5
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "BamBoo Zen",
+                        Price = 10.99,
+                        BrushSize = 65M,
+                        Category = "Kids",
+                        Bristles_Color ="White",
+                        Review = 3
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "Bamboo Soft",
+                        Price = 3.99,
+                        BrushSize = 85M,
+                        Category = "Kids",
+                        Bristles_Color ="Brown",
+                        Review = 2
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "BamBoo Pro",
+                        Price = 6.99,
+                        BrushSize = 35M,
+                        Category = "Adult",
+                        Bristles_Color ="Red",
+                        Review =2
+                    },
+                    new BrushClass
+                    {
+                        ProductName = "",
+                        Price =,
+                        BrushSize =,
+                        Category = "Adult",
                         Bristles_Color =,
                         Review =
                     },
@@ -45,70 +108,7 @@ namespace BamBoo_SoftToothbrush.Models
                         ProductName = "",
                         Price =,
                         BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
-                        Bristles_Color =,
-                        Review =
-                    },
-                    new BrushClass
-                    {
-                        ProductName = "",
-                        Price =,
-                        BrushSize =,
-                        Category =,
+                        Category = "Adult",
                         Bristles_Color =,
                         Review =
                     }
