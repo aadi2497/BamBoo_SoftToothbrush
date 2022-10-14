@@ -35,3 +35,5 @@ Name of the Brand: BamBoo Softbrush
 0439: Database connection string Added
 0445: Scaffold Added
 
+0926: SeedData file created.
+
